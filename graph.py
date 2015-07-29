@@ -1,12 +1,5 @@
-men = { "Xavier" : ["Alice", "Brenda", "Claire"], 
-		"Yuri" : ["Brenda", "Alice", "Claire"],
-		"Zoran" : ["Alice", "Brenda", "Claire"]}
-women = { "Alice" : ["Yuri", "Xavier", "Zoran"],
-		  "Brenda" : ["Xavier", "Yuri", "Zoran"],
-		  "Claire" : ["Xavier", "Yuri", "Zoran"]}
-
 def ignore(sequence, value):
-	return [x for x in sequence if x != value]
+    return [x for x in sequence if x != value]
 
 class Graph:
 	free = {}
@@ -70,9 +63,4 @@ class Graph:
 				self.propose(romeo, juliet)
 			else:
 				self.reject(juliet, romeo)
-
-graph = Graph(men, women)
-bipartite = graph.perfectMatching()
-for pair in bipartite:
-	print pair, "...", bipartite[pair]
 
