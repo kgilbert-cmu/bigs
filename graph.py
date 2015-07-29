@@ -2,9 +2,9 @@ def ignore(sequence, value):
     return [x for x in sequence if x != value]
 
 class Graph:
-	free = {}
-	men = {}       # who can he still propose to?
-	women = {}     # who would she prefer?
+	free = {}       # who is still eligible?
+	men = {}        # who can he still propose to?
+	women = {}      # who would she prefer?
 	marriages = {}  # who is she engaged to?
 	
 	def __init__(self, men, women):
