@@ -4,7 +4,7 @@ This GitHub repo contains a few useful programs I've put together to manage and 
 
 ## Match
 
-Determine a matching of Littles to their ideal Bigs using the Gale-Sharpley algorithm. 
+Determine a matching of Littles to their ideal Bigs using the Gale-Shapely algorithm. 
 
 ## Families
 
