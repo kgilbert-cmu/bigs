@@ -21,7 +21,7 @@ There are two input parameters to `match.py`, which specify the two input files 
 
 Use the "`--help`" parameter to see the *Help* dialogue.
 
-    $ > python match.py --help
+    $ > python match/match.py --help
     Usage: match.py [options]
     
     Options:
