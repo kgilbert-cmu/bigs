@@ -1,4 +1,4 @@
-# bigs
+# Match
 Bipartite matching on complete graphs in Python.
 
 ## Setup
