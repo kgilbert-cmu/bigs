@@ -1,6 +1,17 @@
 # Families
 Generate images of family trees in fraternity chapters
 
+## Dependencies
+
+You will need to install `pydot` and `graphviz`. Unfortunately, `graphviz` has some pretty nasty \$PATH bugs and you will very likely run into this issue even after you've installed both programs:
+
+    RuntimeError: failed to execute [some command], make sure the Graphviz executables are on your systems' path
+
+As far as I can tell, it's just a problem with the order in which you install the dependencies (I did graphviz then pydot, for example...). On a Mac, I recommend:
+
+    pip install pydot
+    brew install graphviz
+
 ## Setup
 You will need to specify the connected pairs as (key, value) pairs. The acceptable format is a comma-separated list of Littles paired after each Big by a colon, as in the following example:
 
