@@ -1,7 +1,11 @@
 ## Begin bigs .gitignore
-Config.py
 *.pref
-
+pdf
+svg
+png
+bmp
+*.txt
+.DS_Store
 
 ## Begin default Python .gitignore
 
